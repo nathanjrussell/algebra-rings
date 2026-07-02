@@ -1,0 +1,3 @@
+add_executable(njr_algebra_rings_test residue_ring_test.cpp)
+target_link_libraries(njr_algebra_rings_test PRIVATE njr::algebra_rings GTest::gtest_main)
+gtest_discover_tests(njr_algebra_rings_test TEST_PREFIX "njr_algebra_rings.")

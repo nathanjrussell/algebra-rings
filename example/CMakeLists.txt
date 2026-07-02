@@ -1,0 +1,2 @@
+add_executable(njr_algebra_rings_example residue_ring_example.cpp)
+target_link_libraries(njr_algebra_rings_example PRIVATE njr::algebra_rings)
