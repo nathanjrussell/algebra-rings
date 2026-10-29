@@ -1,9 +1,9 @@
 #include <cstdint>
 #include <stdexcept>
 #include <gtest/gtest.h>
-#include <njr/algebra/rings/rings.hpp>
+#include <algebra/rings/rings.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 using E = Residue<6>::Element;
 static_assert(CommutativeRingElement<E>);

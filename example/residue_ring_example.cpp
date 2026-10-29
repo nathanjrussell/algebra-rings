@@ -1,7 +1,7 @@
 #include <iostream>
-#include <njr/algebra/rings/rings.hpp>
+#include <algebra/rings/rings.hpp>
 
-using namespace njr::algebra;
+using namespace algebra;
 
 int main() {
     using R = Residue<11>;

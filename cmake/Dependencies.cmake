@@ -1,17 +1,17 @@
 include(FetchContent)
-if(NOT TARGET njr::algebra_core)
+if(NOT TARGET algebra::core)
     FetchContent_Declare(
-        njr_algebra_core
+        algebra_core
         GIT_REPOSITORY git@github.com:nathanjrussell/algebra-core.git
-        GIT_TAG 288e0f9279ca26925c79ece475d318dd100e76cb
+        GIT_TAG df491678e274372fb0a08914c61a4d504414a739
     )
-    FetchContent_MakeAvailable(njr_algebra_core)
+    FetchContent_MakeAvailable(algebra_core)
 endif()
-if(NOT TARGET njr::algebra_groups)
+if(NOT TARGET algebra::groups)
     FetchContent_Declare(
-        njr_algebra_groups
+        algebra_groups
         GIT_REPOSITORY git@github.com:nathanjrussell/algebra-groups.git
-        GIT_TAG 35465f6ee50c6bd481aa29d8d601058f9e6d6695
+        GIT_TAG 3fb89f9178d775518d731a56bfebe7c3f2f84e52
     )
-    FetchContent_MakeAvailable(njr_algebra_groups)
+    FetchContent_MakeAvailable(algebra_groups)
 endif()

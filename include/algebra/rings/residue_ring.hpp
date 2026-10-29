@@ -2,10 +2,10 @@
 
 #include <cstdint>
 #include <ostream>
-#include <njr/algebra/core/core.hpp>
-#include <njr/algebra/groups/cyclic.hpp>
+#include <algebra/core/core.hpp>
+#include <algebra/groups/cyclic.hpp>
 
-namespace njr::algebra {
+namespace algebra {
 
 template<class AdditiveGroup>
 class ResidueRing;
